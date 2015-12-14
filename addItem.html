@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PitStop</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+</head>
+
+<body>
+  <h1>PitStop</h1>
+  <p>Appen för dig på väg!</p>
+  <div class="container">
+    <div class="container">
+      <div class="col-lg-6 col-md-6">
+        <h2>Lägg till stops</h2>
+        <ul>
+          <li>
+            <label for="name">Namn:</label>
+          </li>
+          <li>
+            <input type="text" class="name">
+          </li>
+          <li>
+            <label for="adress">Adress:</label>
+          </li>
+          <li>
+            <input type="text" class="adress">
+          </li>
+          <li>
+            <label for="phone">Telefon:</label>
+          </li>
+          <li>
+            <input type="text" class="phone">
+          </li>
+          <li>
+            <label for="coordinates">Koordinater:</label>
+          </li>
+          <li>
+            <input type="text" class="coordinates">
+          </li>
+          <li>
+            <label for="food">Har dem mat?</label>
+          </li>
+          <li>
+            <input type="checkbox" class="food">
+          </li>
+          <li>
+            <label for="type">Vad för mat har de?:</label>
+          </li>
+          <ul>
+            <li>
+              <label for="husman">Husman</label>
+              <input type="checkbox" class="husman">
+            </li>
+            <li>
+              <label for="crap">Skräpmat</label>
+              <input type="checkbox" class="crap">
+            </li>
+            <li>
+              <label for="chinese">Kinesiskt</label>
+              <input type="checkbox" class="chinese">
+            </li>
+          </ul>
+          <li>
+            <label for="fuel">Kan man tanka?</label>
+          </li>
+          <li>
+            <input type="checkbox" class="fuel">
+          </li>
+          <li>
+            <label for="type">Vad för bränslen har de?:</label>
+          </li>
+          <ul>
+            <li>
+              <label for="bensin">Bensin</label>
+              <input type="checkbox" class="bensin">
+            </li>
+            <li>
+              <label for="diesel">Diesel</label>
+              <input type="checkbox" class="diesel">
+            </li>
+            <li>
+              <label for="el">El</label>
+              <input type="checkbox" class="el">
+            </li>
+            <li>
+              <label for="gas">Gas</label>
+              <input type="checkbox" class="gas">
+            </li>
+          </ul>
+          <li>
+            <label for="toalett">Har de toalett?</label>
+          </li>
+          <li>
+            <input type="checkbox" class="toalett">
+          </li>
+          <li>
+            <label for="gratis">Är den gratis?</label>
+          </li>
+          <li>
+            <input type="checkbox" class="gratis">
+          </li>
+        </ul>
+
+        <button class="butt">Lägg till</button>
+      </div>
+
+    <div class="col-lg-6 col-md-6">
+      <h2>Tillaggda stops:</h2>
+      <ul class="showItem">
+
+      </ul>
+    </div>
+
+    </div>
+  </div>
+  <ul class="fire">
+  </ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/fire.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
